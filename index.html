@@ -9,6 +9,7 @@
     <title>Sign Up</title>
 </head>
 
+
 <body>
     <div class="left">
         <img src="cover.jpg" alt="cover-image">
@@ -28,40 +29,40 @@
                 <div class="podcontainer">
                     <div class="pod">
                         <div class="logintext">First Name</div>
-                        <input type="text" class="input" placeholder="First Name">
+                        <input type="text" class="input" placeholder="First Name" required>
                         <span class="error-msg" id="err-first"></span>
                     </div>
                     <div class="pod">
                         <div class="logintext">Email</div>
-                        <input type="email" class="input" placeholder="you@example.com">
+                        <input type="email" class="input" placeholder="you@example.com" required>
                         <span class="error-msg" id="err-email"></span>
                     </div>
                     <div class="pod">
                         <div class="logintext">Password</div>
-                        <input type="password" class="input" placeholder="••••••••">
+                        <input type="password" maxlength="16" class="input" placeholder="••••••••" required>
                         <span class="error-msg" id="err-password"></span>
                     </div>
                 </div>
                 <div class="podcontainer">
                     <div class="pod">
                         <div class="logintext">Last Name</div>
-                        <input type="text" class="input" placeholder="Last Name">
+                        <input type="text" class="input" placeholder="Last Name" required>
                         <span class="error-msg" id="err-last"></span>
                     </div>
                     <div class="pod">
                         <div class="logintext">Phone Number</div>
-                        <input type="tel" class="input" placeholder="(123) 456-7890">
+                        <input type="tel" class="input" placeholder="(123) 456-7890" required>
                         <span class="error-msg" id="err-phone"></span>
                     </div>
                     <div class="pod">
                         <div class="logintext">Confirm Password</div>
-                        <input type="password" class="input" placeholder="••••••••">
+                        <input type="password" maxlength="16" class="input" placeholder="••••••••" required>
                         <span class="error-msg" id="err-confirm"></span>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="createbtn">Create Account</button>
+        <button type="submit" class="createbtn">Create Account</button>
         <div class="loginprompt"></div>
     </div>
 </body>

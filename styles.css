@@ -119,6 +119,10 @@ img {
     background: white;
 }
 
+input:user-invalid {
+    border-color: red;
+}
+
 .error-msg {
     font-size: 0.75rem;
     color: #e03131;
